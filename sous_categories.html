@@ -3,12 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sous-catégories du Bouton 1</title>
+    <title>Buttons</title>
+    <style>
+        .button-container {
+            text-align: center;
+            margin-top: 50px; /* Espacement supplémentaire par rapport au haut */
+        }
+
+        .button-container button {
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #4CAF50; /* Couleur de fond */
+            color: white; /* Couleur du texte */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease; /* Transition fluide pour l'effet hover */
+        }
+
+        .button-container button:hover {
+            background-color: #45a049; /* Changement de couleur de fond au survol */
+        }
+    </style>
 </head>
 <body>
-    <h1>Sous-catégories du Bouton 1</h1>
     <div class="button-container">
-        <button>Button 1</button>
+        <button><a href="https://localhost/Templates.do?module=mergedRequest">Button 1</a></button>
         <button>Button 2</button>
         <button>Button 3</button>
         <button>Button 4</button>
